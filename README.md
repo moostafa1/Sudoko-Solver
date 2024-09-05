@@ -6,7 +6,6 @@
 ## Table of Contents
 
 [Brief Overview](#headers)  
-[About Us](#about)  
 [Website Walkthrough](#walkthrough)  
 [Technologies Used](#technology)  
 &emsp;&emsp;[Python](#python)  
