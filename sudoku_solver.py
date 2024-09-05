@@ -18,33 +18,20 @@ def get_unitlist():
 
 
 def get_peers(boxes, unitlist):
-    unit = []
-    units = []
-    for b in boxes:
-        for u in unitlist:
-            if b in u:
-                unit.append(u)
-        units.append(unit)
-        unit = []
+    # Initialize an empty dictionary to store peers for each box
+    peers = {box: set() for box in boxes}
 
-    units2 = []
-    last_units = []
-    for u in units:
-        for x in u:
-            units2.extend(x)
-        last_units.append(units2)
-        units2 = []
+    # Iterate over each box
+    for box in boxes:
+        # Find the units (groups) that the box belongs to
+        for unit in unitlist:
+            if box in unit:
+                # Add all other boxes in the unit as peers
+                peers[box].update(unit)
 
-    last_units2 = []
-    for u in last_units:
-        last_units2.append(set(u))
+        # Remove the box itself from its peers
+        peers[box].remove(box)
 
-    for i, u in enumerate(last_units2):
-        for j, b in enumerate(boxes):
-            if i == j:
-                u.discard(b)
-
-    peers = dict(zip(boxes, last_units2))
     return peers
 
 
@@ -192,7 +179,7 @@ def search(boxes, values, peers, unitlist):
 
 
 
-def main(grid):
+def solve_sudoku(grid):
     boxes = cross(rows, cols)
     unitlist = get_unitlist()
     peers = get_peers(boxes, unitlist)
@@ -215,4 +202,4 @@ if __name__ == "__main__":
     grids = [grid1, grid2, grid3]
 
     for grid in grids:
-        main(grid)
+        solve_sudoku(grid)
