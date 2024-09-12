@@ -32,7 +32,7 @@ This project is a multi-dimensional Sudoku web application, which runs with a Fl
 <p>Having encountered many interesting features across Sudoku mobile and web applications, we sought to combine all of them into one place for the enjoyment of friends and family, as well as any and all Sudoku lovers! We encourage you to give it a try!</p>
 
 For any questions, reporting of bugs, or requests for additional features, email us at 
-agss.projects@gmail.com.
+desham8@gmail.com.
 
 <a id="walkthrough"></a>
 
