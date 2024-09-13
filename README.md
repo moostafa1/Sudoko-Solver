@@ -5,10 +5,11 @@
 
 ## Table of Contents
 
-[Brief Overview](#headers)  
+[Brief Overview](#overview)  
+[About Me](#about_me)  
 [Website Walkthrough](#walkthrough)  
 [Technologies Used](#technology)  
-[Start Playing](#gamesite)  
+[Start Playing](#game_site)  
 &emsp;&emsp;[Python](#python)  
 &emsp;&emsp;[Javascript](#js)  
 &emsp;&emsp;[jQuery](#jquery)  
@@ -26,14 +27,16 @@
 ## Brief Overview
 This project is a multi-dimensional Sudoku web application, which runs with a Flask API web framework in Python. The application allows users the option to generate and play a random Sudoku based on varying difficulty (easy, medium, hard, or expert), input their own Sudokus (e.g. from a newspaper or other website) and play it, or solve any Sudoku of their choosing. The overall goal of this application is to give a seamless user experience by creating an intuitive interface and unique aesthetic, combined with a multitude of features that enhance speed and navigation throughout the Sudoku.
 
-<a id="about"></a>
 
-
+<a id="about_me"></a>
 
 <p>Having encountered many interesting features across Sudoku mobile and web applications, we sought to combine all of them into one place for the enjoyment of friends and family, as well as any and all Sudoku lovers! We encourage you to give it a try!</p>
 
 For any questions, reporting of bugs, or requests for additional features, email us at 
 desham8@gmail.com.
+
+
+<a id="game_site"></a>
 
 ## Start Playing
 <p>That's the game site for playing, enjoy!: https://sudoko-solver-e7ddu7air-mostafa-noaman-ahmeds-projects.vercel.app</p>
