@@ -7,8 +7,8 @@
 
 [Brief Overview](#headers)  
 [Website Walkthrough](#walkthrough)  
-[Technologies Used](#technology)
-[Start Playing](#game_site)
+[Technologies Used](#technology)  
+[Start Playing](#game_site)  
 &emsp;&emsp;[Python](#python)  
 &emsp;&emsp;[Javascript](#js)  
 &emsp;&emsp;[jQuery](#jquery)  
