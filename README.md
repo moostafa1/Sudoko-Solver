@@ -7,7 +7,8 @@
 
 [Brief Overview](#headers)  
 [Website Walkthrough](#walkthrough)  
-[Technologies Used](#technology)  
+[Technologies Used](#technology)
+[Start Playing](#game_site)
 &emsp;&emsp;[Python](#python)  
 &emsp;&emsp;[Javascript](#js)  
 &emsp;&emsp;[jQuery](#jquery)  
@@ -33,6 +34,9 @@ This project is a multi-dimensional Sudoku web application, which runs with a Fl
 
 For any questions, reporting of bugs, or requests for additional features, email us at 
 desham8@gmail.com.
+
+## Start Playing
+<p>That's the game site for playing, enjoy!: https://sudoko-solver-e7ddu7air-mostafa-noaman-ahmeds-projects.vercel.app</p>
 
 <a id="walkthrough"></a>
 
